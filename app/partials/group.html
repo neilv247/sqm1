@@ -1,0 +1,21 @@
+<p>This is the partial for groups.</p>
+
+<p>{{inspection.INSPECTION}} Insp. for {{inspection.STATION}}, Platform {{inspection.PLATFORM}}
+<br> {{inspection.HEADER[groupix].TITLE}}</br>
+</p>
+<p>groupix {{groupix}}</p>
+<p>groupix {{faultix}}</p>
+
+<table class="table-striped table-bordered" ng-show="inspection.HEADER[groupix].GROUP.length">
+<tr>
+<th>Group</th>
+<th>{{inspection.HEADER[groupix].TITLE}}</th>
+</tr>
+<tr ng-repeat="grp in inspection.HEADER[groupix].GROUP">
+<td>{{grp.GROUPS}}</td>
+<td><a href="#/faults?groupix={{groupix}}&faultix={{$index}}">{{grp.TITLE}}</a></td>
+
+</tr>
+
+</table>
+

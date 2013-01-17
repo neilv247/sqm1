@@ -1,0 +1,23 @@
+<p>This is the partial for faults.</p>
+
+<p>{{inspection.INSPECTION}} Insp. for Station {{inspection.STATION}}, Platform {{inspection.PLATFORM}}, {{inspection.HEADER[groupix].GROUP[faultix].TITLE}}</p>
+<p>groupix {{groupix}}, faultix {{faultix}}</p>
+
+<form name="faultForm" ng-controller="MyFaults">
+
+<table class="table-striped table-bordered" ng-show="inspection.HEADER[groupix].GROUP[faultix].DETAIL.length">
+<tr>
+<th>Id</th>
+<th>Title</th>
+<th>Pass</th>
+<th>PFN</th>
+</tr>
+<tr ng-repeat="flt in inspection.HEADER[groupix].GROUP[faultix].DETAIL">
+<td>{{flt.SSCODE}}</td>
+<td>{{flt.TITLE}}</td>
+<td><input type="text" name="value-{{$index}}" value="{{flt.VALUE}}" ng-model="inspection.HEADER[groupix].GROUP[faultix].DETAIL[$index].VALUE"></td>
+<td><select ng-model="flt.VALUE" ng-options="c.value for c in checks"></select></td>
+</tr>
+</table>
+
+</form>
