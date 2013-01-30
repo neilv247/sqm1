@@ -33,18 +33,32 @@ function MyFaults($scope, $routeParams, $http, $location) {
 
   $http.get('inspections/neilston_p1.json').success(function(data) {
     $scope.inspection = data;
+    $scope.groupix = $location.search()['groupix'];
+    $scope.faultix = $location.search()['faultix'];
+    $scope.currDetail = data.HEADER[$scope.groupix].GROUP[$scope.faultix];
   });
-  $scope.groupix = $location.search()['groupix'];
-  $scope.faultix = $location.search()['faultix'];
   $scope.checks = [
-    {value:'P', bg:'green'},
-    {value:'F', bg:'red'},
-    {value:'N', bg:'white'}
+    {check:'P', bg:'green'},
+    {check:'F', bg:'red'},
+    {check:'N', bg:'white'}
   ];
-  $scope.setFault = function(value,groupix,faultix,detailix){
-        alert( 'value: ' + value + ', grpix: ' + groupix + ', faultix: ' + faultix + ', detix: ' + detailix);
-	
-    }
+  $scope.setFault = function(){
+        alert( 'value1: ' + $scope.currDetail.DETAIL[0].VALUE + ', grpix: ' + $scope.groupix + ', faultix: ' + $scope.faultix);
+	alert( 'value2: ' + $scope.currDetail.DETAIL[1].VALUE);
+	alert( 'value3: ' + $scope.currDetail.DETAIL[2].VALUE);
+	$scope.inspection.HEADER[$scope.groupix].GROUP[$scope.faultix].DETAIL = $scope.currDetail.DETAIL;
+    };
+  $scope.getFaultColor = function(fcheck){
+        //alert( 'fcheck: ' + fcheck);
+	var fcolor = "white";
+	if (fcheck == "P") 
+	{ fcolor = "green"; }
+	else
+	if (fcheck == "F")
+	{ fcolor = "red"; }
+	//alert( 'fcolor: ' + fcolor);
+	return fcolor;
+    };
 }
 
 //MyFaults.$inject = ['$scope', '$routeParams', '$http', '$location'];

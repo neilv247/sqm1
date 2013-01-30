@@ -3,21 +3,26 @@
 <p>{{inspection.INSPECTION}} Insp. for Station {{inspection.STATION}}, Platform {{inspection.PLATFORM}}, {{inspection.HEADER[groupix].GROUP[faultix].TITLE}}</p>
 <p>groupix {{groupix}}, faultix {{faultix}}</p>
 
-<form name="faultForm" ng-controller="MyFaults">
+<form ng-submit="setFault()">
 
-<table class="table-striped table-bordered" ng-show="inspection.HEADER[groupix].GROUP[faultix].DETAIL.length">
+<table class="table-bordered" ng-show="inspection.HEADER[groupix].GROUP[faultix].DETAIL.length">
 <tr>
-<th>Id</th>
-<th>Title</th>
-<th>Pass</th>
-<th>PFN</th>
+<th style="width: 30px">Id</th>
+<th style="width: 240px">Title</th>
+<th style="width: 50px"><i class="icon-ok"></th>
 </tr>
-<tr ng-repeat="flt in inspection.HEADER[groupix].GROUP[faultix].DETAIL">
+<tr ng-repeat="flt in currDetail.DETAIL">
 <td>{{flt.SSCODE}}</td>
-<td>{{flt.TITLE}}</td>
-<td><input type="text" name="value-{{$index}}" value="{{flt.VALUE}}" ng-model="inspection.HEADER[groupix].GROUP[faultix].DETAIL[$index].VALUE"></td>
-<td><select ng-model="flt.VALUE" ng-options="c.value for c in checks"></select></td>
+<td bgcolor="{{getFaultColor(flt.VALUE)}}">{{flt.TITLE}}</td>
+<td><select ng-model="currDetail.DETAIL[$index].VALUE" style ="width:50px">
+<option ng-repeat="obj in checks" value="{{obj.check}}" ng-selected="flt.VALUE == obj.check">{{obj.check}}</option>
+</select></td>
 </tr>
+<tr><td></td><td>
+<div class="form-actions">
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <button type="button" class="btn">Cancel</button>
+</div>
+</td><td></td><td></td></tr>
 </table>
-
 </form>
