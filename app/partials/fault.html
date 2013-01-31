@@ -2,27 +2,32 @@
 
 <p>{{inspection.INSPECTION}} Insp. for Station {{inspection.STATION}}, Platform {{inspection.PLATFORM}}, {{inspection.HEADER[groupix].GROUP[faultix].TITLE}}</p>
 <p>groupix {{groupix}}, faultix {{faultix}}</p>
-
+<div class ="span5">
 <form ng-submit="setFault()">
 
-<table class="table-bordered" ng-show="inspection.HEADER[groupix].GROUP[faultix].DETAIL.length">
+<table class="table table-bordered table-condensed" ng-show="inspection.HEADER[groupix].GROUP[faultix].DETAIL.length">
+<thead>
 <tr>
 <th style="width: 30px">Id</th>
-<th style="width: 240px">Title</th>
+<th style="width: 240px">Description</th>
 <th style="width: 50px"><i class="icon-ok"></th>
 </tr>
-<tr ng-repeat="flt in currDetail.DETAIL">
+</thead>
+<tbody>
+<tr class="{{getFaultColor(flt.VALUE)}}" ng-repeat="flt in currDetail.DETAIL">
 <td>{{flt.SSCODE}}</td>
-<td bgcolor="{{getFaultColor(flt.VALUE)}}">{{flt.TITLE}}</td>
+<td >{{flt.TITLE}}</td>
 <td><select ng-model="currDetail.DETAIL[$index].VALUE" style ="width:50px">
 <option ng-repeat="obj in checks" value="{{obj.check}}" ng-selected="flt.VALUE == obj.check">{{obj.check}}</option>
 </select></td>
 </tr>
-<tr><td></td><td>
-<div class="form-actions">
+<tr><td></td>
+<td class="form-actions">
     <button type="submit" class="btn btn-primary">Save Changes</button>
     <button type="button" class="btn">Cancel</button>
-</div>
-</td><td></td><td></td></tr>
+</td>
+</td><td></td></tr>
+</tbody>
 </table>
 </form>
+</div>

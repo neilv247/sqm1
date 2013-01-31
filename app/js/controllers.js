@@ -52,10 +52,10 @@ function MyFaults($scope, $routeParams, $http, $location) {
         //alert( 'fcheck: ' + fcheck);
 	var fcolor = "white";
 	if (fcheck == "P") 
-	{ fcolor = "green"; }
+	{ fcolor = "success"; }
 	else
 	if (fcheck == "F")
-	{ fcolor = "red"; }
+	{ fcolor = "error"; }
 	//alert( 'fcolor: ' + fcolor);
 	return fcolor;
     };
