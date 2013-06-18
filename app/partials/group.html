@@ -14,8 +14,12 @@
 <tr ng-repeat="grp in inspection.HEADER[groupix].GROUP">
 <td>{{grp.GROUPS}}</td>
 <td><a href="#/faults?groupix={{groupix}}&faultix={{$index}}">{{grp.TITLE}}</a></td>
-
 </tr>
-
+<tr><td></td>
+<td>
+    <button type="button" class="btn" ng-click="doTheBack()">Exit</button>
+</td>
+</td>
+</tr>
 </table>
 
