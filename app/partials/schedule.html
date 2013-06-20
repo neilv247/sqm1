@@ -1,16 +1,15 @@
-<p>This is the partial for schedules.</p>
+<p>{{inspection.INSPECTION}} Insp. for Station {{inspection.STATION}}, Platform {{inspection.PLATFORM}}</p>
 
-<p>{{inspection.INSPECTION}} Insp. for Station {{inspection.STATION}}, Platform {{inspection.USERID}}</p>
-
+<div class="span12 centred">
 <table class="table-striped table-bordered" ng-show="inspection.HEADER.length">
 <tr>
 <th>Schedules</th>
 </tr>
 <tr ng-repeat="hdr in inspection.HEADER">
 
-<td><a href="#/groups?groupix={{$index}}">{{hdr.TITLE}}</a></td>
+<td><a ng-href={{getSchedURL($index)}}>{{hdr.TITLE}}</a></td>
 
 </tr>
 
 </table>
-
+</div>
