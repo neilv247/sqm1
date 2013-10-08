@@ -1,0 +1,1297 @@
+{
+  "STATION" : "NEILSTON",
+  "STATIONID" : 258,
+  "PLATFORM" : "1",
+  "INSPECTION" : "PRIMARY",
+  "REGIME" : "SQR",
+  "FAULT_TYPE" : "REACTIVE",
+  "FAULT_CATEGORY" : "STATION",
+  "AUTHORITY" : "SPT",
+  "USERID" : "U140",
+  "INSPECTION_DATE" : "",
+  "TS" : "",
+  "WEATHER" : "",
+  "HEADER" : [{
+    "CONFIGID" : "177",
+    "TITLE" : "TICKET OFFICE",
+    "SCHEDULE" : "1",
+    "FAILPOINT" : "L",
+    "FAILTYPE" : "S",
+    "GROUP" : [{
+      "CONFIGID" : "178",
+      "TITLE" : "Null Group Created for Schedule: 1",
+      "GROUPS" : "0",
+      "DETAIL" : [{
+        "CONFIGID" : 297,
+        "TITLE" : "TICKET OFFICE CLOSED",
+        "SSCODE" : "1.3",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 179,
+        "TITLE" : "5 MINS ON ARRIVAL",
+        "SSCODE" : "1A",
+        "EXTRA" : "Y",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 243,
+        "TITLE" : "5 MINS ON DEPARTURE",
+        "SSCODE" : "1B",
+        "EXTRA" : "Y",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 244,
+        "TITLE" : "SPEAKER/MIC/LOOP INAUDIBLE",
+        "SSCODE" : "1C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 245,
+        "TITLE" : "NOTICE OF HOURS/NRC/CHARTER",
+        "SSCODE" : "1D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 246,
+        "TITLE" : "COPY OF NRC/CHARTER/ROUTING",
+        "SSCODE" : "1E",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }]
+  }, {
+    "CONFIGID" : "189",
+    "TITLE" : "STATION SHELTERS",
+    "SCHEDULE" : "2",
+    "FAILPOINT" : "G",
+    "FAILTYPE" : "M",
+    "GROUP" : [{
+      "CONFIGID" : "191",
+      "TITLE" : "SHELTER",
+      "GROUPS" : "2",
+      "DETAIL" : [{
+        "CONFIGID" : 250,
+        "TITLE" : "MISSING",
+        "SSCODE" : "2.2A",
+        "EXTRA" : "N",
+        "VALUE" : "P"
+      }, {
+        "CONFIGID" : 251,
+        "TITLE" : "PANEL MISSING",
+        "SSCODE" : "2.2B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 252,
+        "TITLE" : "HOLES",
+        "SSCODE" : "2.2C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 253,
+        "TITLE" : "DOORS",
+        "SSCODE" : "2.2D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 254,
+        "TITLE" : "CONTAMINATION",
+        "SSCODE" : "2.2E",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 255,
+        "TITLE" : "OPAQUE/BURN",
+        "SSCODE" : "2.2F",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 256,
+        "TITLE" : "LOCKED",
+        "SSCODE" : "2.2G",
+        "EXTRA" : "Y",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 257,
+        "TITLE" : "LEAKING",
+        "SSCODE" : "2.2H",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 258,
+        "TITLE" : "SEATING",
+        "SSCODE" : "2.2I",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 259,
+        "TITLE" : "HEATING",
+        "SSCODE" : "2.2J",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 260,
+        "TITLE" : "DIRT",
+        "SSCODE" : "2.2K",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }, {
+      "CONFIGID" : "192",
+      "TITLE" : "WAITING AREA",
+      "GROUPS" : "3",
+      "DETAIL" : [{
+        "CONFIGID" : 261,
+        "TITLE" : "MISSING",
+        "SSCODE" : "2.3A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 262,
+        "TITLE" : "PANEL MISSING",
+        "SSCODE" : "2.3B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 263,
+        "TITLE" : "HOLES",
+        "SSCODE" : "2.3C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 264,
+        "TITLE" : "DOORS",
+        "SSCODE" : "2.3D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 265,
+        "TITLE" : "CONTAMINATION",
+        "SSCODE" : "2.3E",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 266,
+        "TITLE" : "OPAQUE/BURN",
+        "SSCODE" : "2.3F",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 267,
+        "TITLE" : "LOCKED",
+        "SSCODE" : "2.3G",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 268,
+        "TITLE" : "LEAKING",
+        "SSCODE" : "2.3H",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 269,
+        "TITLE" : "SEATING",
+        "SSCODE" : "2.3I",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 270,
+        "TITLE" : "HEATING",
+        "SSCODE" : "2.3J",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 271,
+        "TITLE" : "DIRT",
+        "SSCODE" : "2.3K",
+        "EXTRA" : "Y",
+        "VALUE" : "N"
+      }]
+    }]
+  }, {
+    "CONFIGID" : "204",
+    "TITLE" : "STATION SEATS",
+    "SCHEDULE" : "3",
+    "FAILPOINT" : "H",
+    "FAILTYPE" : "S",
+    "GROUP" : [{
+      "CONFIGID" : "702",
+      "TITLE" : "Null Group Created for Schedule: 3",
+      "GROUPS" : "0",
+      "DETAIL" : [{
+        "CONFIGID" : 300,
+        "TITLE" : "MISSING",
+        "SSCODE" : "3A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 301,
+        "TITLE" : "INJURY",
+        "SSCODE" : "3B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 302,
+        "TITLE" : "CONTAMINATION",
+        "SSCODE" : "3C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 303,
+        "TITLE" : "UNSTABLE",
+        "SSCODE" : "3D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 206,
+        "TITLE" : "NOT USED",
+        "SSCODE" : "3X",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 298,
+        "TITLE" : "NOT USED",
+        "SSCODE" : "3Y",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 299,
+        "TITLE" : "NOT USED",
+        "SSCODE" : "3Z",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }]
+  }, {
+    "CONFIGID" : "207",
+    "TITLE" : "STATION LIGHTS",
+    "SCHEDULE" : "4",
+    "FAILPOINT" : "L",
+    "FAILTYPE" : "S",
+    "GROUP" : [{
+      "CONFIGID" : "272",
+      "TITLE" : "STATION BUILDINGS",
+      "GROUPS" : "1",
+      "DETAIL" : [{
+        "CONFIGID" : 291,
+        "TITLE" : "POWER",
+        "SSCODE" : "4.1A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 304,
+        "TITLE" : "FLICKERING",
+        "SSCODE" : "4.1B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 305,
+        "TITLE" : "COVER/MISSING",
+        "SSCODE" : "4.1C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 306,
+        "TITLE" : "ALIGNMENT",
+        "SSCODE" : "4.1D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 307,
+        "TITLE" : "NOT SWITCHED ON (SEMI PERMINANT)",
+        "SSCODE" : "4.1E",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 308,
+        "TITLE" : "NOT SWITCHED ON (HOURS OF DARKNESS)",
+        "SSCODE" : "4.1F",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 309,
+        "TITLE" : "FOLIAGE",
+        "SSCODE" : "4.1G",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }, {
+      "CONFIGID" : "274",
+      "TITLE" : "PLATFORM",
+      "GROUPS" : "3",
+      "DETAIL" : [{
+        "CONFIGID" : 317,
+        "TITLE" : "POWER",
+        "SSCODE" : "4.3A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 318,
+        "TITLE" : "FLICKERING",
+        "SSCODE" : "4.3B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 319,
+        "TITLE" : "COVER/MISSING",
+        "SSCODE" : "4.3C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 320,
+        "TITLE" : "ALIGNMENT",
+        "SSCODE" : "4.3D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 321,
+        "TITLE" : "NOT SWITCHED ON (SEMI PERMANENT)",
+        "SSCODE" : "4.3E",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 322,
+        "TITLE" : "NOT SWITCHED ON (HOURS OF DARKNESS)",
+        "SSCODE" : "4.3F",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 323,
+        "TITLE" : "FOLIAGE",
+        "SSCODE" : "4.3G",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }, {
+      "CONFIGID" : "275",
+      "TITLE" : "CAR PARK",
+      "GROUPS" : "4",
+      "DETAIL" : [{
+        "CONFIGID" : 324,
+        "TITLE" : "POWER",
+        "SSCODE" : "4.4A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 325,
+        "TITLE" : "FLICKERING",
+        "SSCODE" : "4.4B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 326,
+        "TITLE" : "COVER/MISSING",
+        "SSCODE" : "4.4C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 327,
+        "TITLE" : "ALIGNMENT",
+        "SSCODE" : "4.4D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 328,
+        "TITLE" : "NOT SWITCHED ON (SEMI PERMANENT)",
+        "SSCODE" : "4.4E",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 329,
+        "TITLE" : "NOT SWITCHED ON (HOURS OF DARKNESS)",
+        "SSCODE" : "4.4F",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 330,
+        "TITLE" : "FOLIAGE",
+        "SSCODE" : "4.4G",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }, {
+      "CONFIGID" : "276",
+      "TITLE" : "FOOTBRIDGE",
+      "GROUPS" : "5",
+      "DETAIL" : [{
+        "CONFIGID" : 331,
+        "TITLE" : "POWER",
+        "SSCODE" : "4.5A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 332,
+        "TITLE" : "FLICKERING",
+        "SSCODE" : "4.5B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 333,
+        "TITLE" : "COVER/MISSING",
+        "SSCODE" : "4.5C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 334,
+        "TITLE" : "ALIGNMENT",
+        "SSCODE" : "4.5D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 335,
+        "TITLE" : "NOT SWITCHED ON (SEMI PERMINANT)",
+        "SSCODE" : "4.5E",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 336,
+        "TITLE" : "NOT SWITCHED ON (HOURS OF DARKNESS)",
+        "SSCODE" : "4.5F",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 337,
+        "TITLE" : "FOLIAGE",
+        "SSCODE" : "4.5G",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }, {
+      "CONFIGID" : "277",
+      "TITLE" : "PATHWAYS",
+      "GROUPS" : "6",
+      "DETAIL" : [{
+        "CONFIGID" : 338,
+        "TITLE" : "POWER",
+        "SSCODE" : "4.6A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 339,
+        "TITLE" : "FLICKERING",
+        "SSCODE" : "4.6B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 340,
+        "TITLE" : "COVER/MISSING",
+        "SSCODE" : "4.6C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 341,
+        "TITLE" : "ALIGNMENT",
+        "SSCODE" : "4.6D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 342,
+        "TITLE" : "NOT SWITCHED ON (SEMI PERMINANT)",
+        "SSCODE" : "4.6E",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 343,
+        "TITLE" : "NOT SWITCHED ON (HOURS OF DARKNESS)",
+        "SSCODE" : "4.6F",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 344,
+        "TITLE" : "FOLIAGE",
+        "SSCODE" : "4.6G",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }]
+  }, {
+    "CONFIGID" : "208",
+    "TITLE" : "STATION CCTV AND SECURITY",
+    "SCHEDULE" : "5",
+    "FAILPOINT" : "L",
+    "FAILTYPE" : "S",
+    "GROUP" : [{
+      "CONFIGID" : "424",
+      "TITLE" : "CCTV CAMERA",
+      "GROUPS" : "1",
+      "DETAIL" : [{
+        "CONFIGID" : 430,
+        "TITLE" : "TILT, PAN, ZOOM",
+        "SSCODE" : "5.1A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 431,
+        "TITLE" : "CAMERA FAILS",
+        "SSCODE" : "5.1B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 432,
+        "TITLE" : "SUBSTANDARD PICTURE",
+        "SSCODE" : "5.1C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 433,
+        "TITLE" : "NO SECURITY BENEFIT",
+        "SSCODE" : "5.1D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }, {
+      "CONFIGID" : "426",
+      "TITLE" : "DATA PROTECTION SIGN",
+      "GROUPS" : "3",
+      "DETAIL" : [{
+        "CONFIGID" : 436,
+        "TITLE" : "NO SIGN",
+        "SSCODE" : "5.3A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }, {
+      "CONFIGID" : "427",
+      "TITLE" : "REPORTING SYSTEM (SPT)",
+      "GROUPS" : "4",
+      "DETAIL" : [{
+        "CONFIGID" : 437,
+        "TITLE" : "FAULT NOT REPORTED (AT CCTV CENTRE)",
+        "SSCODE" : "5.4A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 438,
+        "TITLE" : "FAULT NOT REPORTED (STAND ALONE SYSTEM)",
+        "SSCODE" : "5.4B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 439,
+        "TITLE" : "REASONABLE ENDEAVOURS",
+        "SSCODE" : "5.4C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 440,
+        "TITLE" : "NULL",
+        "SSCODE" : "NULL",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 441,
+        "TITLE" : "NULL",
+        "SSCODE" : "NULL",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }, {
+      "CONFIGID" : "429",
+      "TITLE" : "BOUNDARIES AND FENCES",
+      "GROUPS" : "6",
+      "DETAIL" : [{
+        "CONFIGID" : 447,
+        "TITLE" : "BOUNDARY/FENCE BROKEN",
+        "SSCODE" : "5.6A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 448,
+        "TITLE" : "NOT DEFINED/RESTRICT ENTRY OR EXIT",
+        "SSCODE" : "5.6B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 449,
+        "TITLE" : "NOT RESTRICT NO PUBLIC AREAS",
+        "SSCODE" : "5.6C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 450,
+        "TITLE" : "VEGETATION/FOLIAGE NOT MAINTAINED",
+        "SSCODE" : "5.6D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }]
+  }, {
+    "CONFIGID" : "209",
+    "TITLE" : "GRAFFITI",
+    "SCHEDULE" : "6",
+    "FAILPOINT" : "L",
+    "FAILTYPE" : "S",
+    "GROUP" : [{
+      "CONFIGID" : "451",
+      "TITLE" : "STATION BUILDING EXTERIOR",
+      "GROUPS" : "1",
+      "DETAIL" : [{
+        "CONFIGID" : 454,
+        "TITLE" : "OFFENSIVE (RACIAL/RELIGIOUS)",
+        "SSCODE" : "6.1A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 462,
+        "TITLE" : "AREA LARGER THAN A4",
+        "SSCODE" : "6.1B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 463,
+        "TITLE" : "MORE THAN 10 ITEMS/COLLECTIVELY",
+        "SSCODE" : "6.1C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }, {
+      "CONFIGID" : "452",
+      "TITLE" : "SHELTER/CANOPY/WAITING ROOM",
+      "GROUPS" : "2",
+      "DETAIL" : [{
+        "CONFIGID" : 464,
+        "TITLE" : "OFFENSIVE (RACIAL/RELIGIOUS)",
+        "SSCODE" : "6.2A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 465,
+        "TITLE" : "AREA LARGER THAN A4",
+        "SSCODE" : "6.2B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 466,
+        "TITLE" : "MORE THAN 10 ITEMS/COLLECTIVELY",
+        "SSCODE" : "6.2C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }, {
+      "CONFIGID" : "453",
+      "TITLE" : "SEATS/BENCH",
+      "GROUPS" : "3",
+      "DETAIL" : [{
+        "CONFIGID" : 467,
+        "TITLE" : "OFFENSIVE (RACIAL/RELIGIOUS)",
+        "SSCODE" : "6.3A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 468,
+        "TITLE" : "AREA LARGER THAN A4",
+        "SSCODE" : "6.3B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 469,
+        "TITLE" : "MORE THAN 10 ITEMS/COLLECTIVELY",
+        "SSCODE" : "6.3C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }, {
+      "CONFIGID" : "459",
+      "TITLE" : "POSTER/FRAME",
+      "GROUPS" : "5",
+      "DETAIL" : [{
+        "CONFIGID" : 473,
+        "TITLE" : "OFFENSIVE (RACIAL/RELIGIOUS)",
+        "SSCODE" : "6.5A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 474,
+        "TITLE" : "AREA LARGER THAN A4",
+        "SSCODE" : "6.5B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 475,
+        "TITLE" : "MORE THAN 10 ITEMS/COLLECTIVELY",
+        "SSCODE" : "6.5C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }, {
+      "CONFIGID" : "460",
+      "TITLE" : "SPECIFY OTHER",
+      "GROUPS" : "6",
+      "DETAIL" : [{
+        "CONFIGID" : 476,
+        "TITLE" : "OFFENSIVE (RACIAL/RELIGIOUS)",
+        "SSCODE" : "6.6A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 477,
+        "TITLE" : "AREA LARGER THAN A4",
+        "SSCODE" : "6.6B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 478,
+        "TITLE" : "MORE THAN 10 ITEMS/COLLECTIVELY",
+        "SSCODE" : "6.6C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }, {
+      "CONFIGID" : "461",
+      "TITLE" : "FOOTBRIDGE/SUBWAY/PATHWAY",
+      "GROUPS" : "7",
+      "DETAIL" : [{
+        "CONFIGID" : 479,
+        "TITLE" : "OFFENSIVE (RACIAL/RELIGIOUS)",
+        "SSCODE" : "6.7A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 480,
+        "TITLE" : "AREA LARGER THAN A4",
+        "SSCODE" : "6.7B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 481,
+        "TITLE" : "MORE THAN 10 ITEMS/COLLECTIVELY",
+        "SSCODE" : "6.7C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }]
+  }, {
+    "CONFIGID" : "210",
+    "TITLE" : "LITTER AND CONTAMINATION",
+    "SCHEDULE" : "7",
+    "FAILPOINT" : "L",
+    "FAILTYPE" : "S",
+    "GROUP" : [{
+      "CONFIGID" : "482",
+      "TITLE" : "Null Group Created for Schedule: 7",
+      "GROUPS" : "0",
+      "DETAIL" : [{
+        "CONFIGID" : 483,
+        "TITLE" : "10X CREDIT CARD SIZE",
+        "SSCODE" : "7A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 484,
+        "TITLE" : "SWEPT ON TRACK",
+        "SSCODE" : "7B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 485,
+        "TITLE" : "TRACK LITTER",
+        "SSCODE" : "7C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 486,
+        "TITLE" : "BIN NOT FIT FOR PURPOSE",
+        "SSCODE" : "7D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 487,
+        "TITLE" : "BIN FULL/OVERFLOWING",
+        "SSCODE" : "7E",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 488,
+        "TITLE" : "CONTAMINATION",
+        "SSCODE" : "7F",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 489,
+        "TITLE" : "SNOW/ICE/LEAVES",
+        "SSCODE" : "7G",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 490,
+        "TITLE" : "STANDING WATER",
+        "SSCODE" : "7H",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 491,
+        "TITLE" : "TRIPPING HAZARD",
+        "SSCODE" : "7I",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 492,
+        "TITLE" : "UNTREATED DURING -0",
+        "SSCODE" : "7J",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }]
+  }, {
+    "CONFIGID" : "211",
+    "TITLE" : "STATION TIMETABLES AND INFORMATION",
+    "SCHEDULE" : "8",
+    "FAILPOINT" : "L",
+    "FAILTYPE" : "S",
+    "GROUP" : [{
+      "CONFIGID" : "493",
+      "TITLE" : "Null Group Created for Schedule: 8",
+      "GROUPS" : "0",
+      "DETAIL" : [{
+        "CONFIGID" : 494,
+        "TITLE" : "TIMETABLE/PROMOTIONAL LEAFLETS",
+        "SSCODE" : "8A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 496,
+        "TITLE" : "TCIT",
+        "SSCODE" : "8B1",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 497,
+        "TITLE" : "DIRECTIONAL",
+        "SSCODE" : "8B2",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 498,
+        "TITLE" : "ENGINEERING",
+        "SSCODE" : "8B3",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 499,
+        "TITLE" : "TIMETABLE",
+        "SSCODE" : "8B4",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 500,
+        "TITLE" : "NETWORK/LOCAL MAP",
+        "SSCODE" : "8B5",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 501,
+        "TITLE" : "SIGNAGE - FROM TOWN CENTRE",
+        "SSCODE" : "8C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 502,
+        "TITLE" : "SIGNAGE - FROM APPROACH ROAD",
+        "SSCODE" : "8D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 503,
+        "TITLE" : "SIGNAGE - FROM LOCAL AMENITIES",
+        "SSCODE" : "8E",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 504,
+        "TITLE" : "SIGNAGE - TO RELEVANT TOWN CENTRE",
+        "SSCODE" : "8F",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 505,
+        "TITLE" : "SIGNAGE - TO LOCAL AMENITIES",
+        "SSCODE" : "8G",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 506,
+        "TITLE" : "DOUBLE ARROW SYMBOL",
+        "SSCODE" : "8H",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }]
+  }, {
+    "CONFIGID" : "212",
+    "TITLE" : "STATION CLOCKS",
+    "SCHEDULE" : "9",
+    "FAILPOINT" : "H",
+    "FAILTYPE" : "M",
+    "GROUP" : [{
+      "CONFIGID" : "507",
+      "TITLE" : "Null Group Created for Schedule: 9",
+      "GROUPS" : "0",
+      "DETAIL" : [{
+        "CONFIGID" : 508,
+        "TITLE" : "NOT WORKING",
+        "SSCODE" : "9A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 509,
+        "TITLE" : "INCORRECT - SLOW",
+        "SSCODE" : "9B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 510,
+        "TITLE" : "INCORRECT - FAST",
+        "SSCODE" : "9C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 511,
+        "TITLE" : "OBSCURED / UNREADABLE",
+        "SSCODE" : "9D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 512,
+        "TITLE" : "NOT ILLUMINATED / DAMAGED",
+        "SSCODE" : "9E",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }]
+  }, {
+    "CONFIGID" : "213",
+    "TITLE" : "STATION POSTERS",
+    "SCHEDULE" : "10",
+    "FAILPOINT" : "H",
+    "FAILTYPE" : "S",
+    "GROUP" : [{
+      "CONFIGID" : "513",
+      "TITLE" : "Null Group Created for Schedule: 10",
+      "GROUPS" : "0",
+      "DETAIL" : [{
+        "CONFIGID" : 514,
+        "TITLE" : "MISSING / INCORRECT",
+        "SSCODE" : "10A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 515,
+        "TITLE" : "OFF STRAIGHT",
+        "SSCODE" : "10B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 516,
+        "TITLE" : "NOT LEGIBLE",
+        "SSCODE" : "10C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 517,
+        "TITLE" : "OBSCURED BY VEGETATION",
+        "SSCODE" : "10D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 518,
+        "TITLE" : "OUT OF DATE",
+        "SSCODE" : "10E",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 519,
+        "TITLE" : "DAMAGED / FADED",
+        "SSCODE" : "10F",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 520,
+        "TITLE" : "FRAME MISSING / DAMAGED",
+        "SSCODE" : "10G",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }]
+  }, {
+    "CONFIGID" : "214",
+    "TITLE" : "PUBLIC ANNOUNCEMENT AND CUSTOMER INFORMATION SYSTE",
+    "SCHEDULE" : "11",
+    "FAILPOINT" : "L",
+    "FAILTYPE" : "G",
+    "GROUP" : [{
+      "CONFIGID" : "527",
+      "TITLE" : "AURAL SYSTEM (TANNOY/PA)",
+      "GROUPS" : "2",
+      "DETAIL" : [{
+        "CONFIGID" : 530,
+        "TITLE" : "AURAL INAUDIBLE",
+        "SSCODE" : "11.2B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 531,
+        "TITLE" : "NO ANNOUNCEMENTS",
+        "SSCODE" : "11.2C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }]
+  }, {
+    "CONFIGID" : "216",
+    "TITLE" : "CAR PARK AND TAXI RANKS",
+    "SCHEDULE" : "13",
+    "FAILPOINT" : "H",
+    "FAILTYPE" : "S",
+    "GROUP" : [{
+      "CONFIGID" : "546",
+      "TITLE" : "CAR PARKS",
+      "GROUPS" : "1",
+      "DETAIL" : [{
+        "CONFIGID" : 547,
+        "TITLE" : "NO INFO SIGN OUTSIDE STATION",
+        "SSCODE" : "13.1A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 548,
+        "TITLE" : "BAYS UNMARKED",
+        "SSCODE" : "13.1B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 549,
+        "TITLE" : "BOUNDARIES UNMARKED",
+        "SSCODE" : "13.1C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 550,
+        "TITLE" : "PEDESTRIAN ROUTE UNMARKED",
+        "SSCODE" : "13.1D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 551,
+        "TITLE" : "EXITS / ENTRANCES / LIFTS / STAIRS UNMARKED",
+        "SSCODE" : "13.1E",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 552,
+        "TITLE" : "NO INFO SIGNS OF  CONDITIONS OF USE",
+        "SSCODE" : "13.1F",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 553,
+        "TITLE" : "PARKING METERS UNSIGNED ETC",
+        "SSCODE" : "13.1G",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 554,
+        "TITLE" : "VEHICLE WITHOUT TICKET / PASS",
+        "SSCODE" : "13.1H",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 555,
+        "TITLE" : "ABANDONED VEHICLE",
+        "SSCODE" : "13.1I",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }]
+  }, {
+    "CONFIGID" : "218",
+    "TITLE" : "LANDSCAPING AND VEGETATION",
+    "SCHEDULE" : "15",
+    "FAILPOINT" : "L",
+    "FAILTYPE" : "S",
+    "GROUP" : [{
+      "CONFIGID" : "560",
+      "TITLE" : "Null Group Created for Schedule: 15",
+      "GROUPS" : "0",
+      "DETAIL" : [{
+        "CONFIGID" : 561,
+        "TITLE" : "BOARD / SIGN / HELP POINT OBSCURED",
+        "SSCODE" : "15A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 562,
+        "TITLE" : "BLOCKED BY FOLIAGE",
+        "SSCODE" : "15B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 563,
+        "TITLE" : "COULD CASE INJURY",
+        "SSCODE" : "15C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }]
+  }, {
+    "CONFIGID" : "219",
+    "TITLE" : "HELP POINTS, TELEPHONES AND TICKET MACHINES",
+    "SCHEDULE" : "16",
+    "FAILPOINT" : "L",
+    "FAILTYPE" : "S",
+    "GROUP" : [{
+      "CONFIGID" : "569",
+      "TITLE" : "HELP",
+      "GROUPS" : "1",
+      "DETAIL" : [{
+        "CONFIGID" : 572,
+        "TITLE" : "MISSING / OPERATIONAL",
+        "SSCODE" : "16.1A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 573,
+        "TITLE" : "NO PUBLIC PHONE",
+        "SSCODE" : "16.1B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 574,
+        "TITLE" : "NOT CLEARLY SIGNED",
+        "SSCODE" : "16.1C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 575,
+        "TITLE" : "NO CLEAR INSTRUCTIONS",
+        "SSCODE" : "16.1D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 576,
+        "TITLE" : "ANSWERED AFTER 30 SECONDS",
+        "SSCODE" : "16.1E",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }, {
+      "CONFIGID" : "570",
+      "TITLE" : "PHONE",
+      "GROUPS" : "2",
+      "DETAIL" : [{
+        "CONFIGID" : 578,
+        "TITLE" : "MISSING / OPERATIONAL",
+        "SSCODE" : "16.2A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 579,
+        "TITLE" : "NO PUBLIC PHONE",
+        "SSCODE" : "16.2B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 580,
+        "TITLE" : "NOT CLEARLY SIGNED",
+        "SSCODE" : "16.2C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 581,
+        "TITLE" : "NO CLEAR INSTRUCTIONS",
+        "SSCODE" : "16.2D",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 582,
+        "TITLE" : "HELP POINT UNANSWERED",
+        "SSCODE" : "16.2E",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }]
+  }, {
+    "CONFIGID" : "220",
+    "TITLE" : "STATION STAFF",
+    "SCHEDULE" : "17",
+    "FAILPOINT" : "L",
+    "FAILTYPE" : "S",
+    "GROUP" : [{
+      "CONFIGID" : "294",
+      "TITLE" : "Null Group Created for Schedule: 17",
+      "GROUPS" : "0",
+      "DETAIL" : [{
+        "CONFIGID" : 295,
+        "TITLE" : "UNIFORM",
+        "SSCODE" : "17A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 590,
+        "TITLE" : "BADGE",
+        "SSCODE" : "17B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 591,
+        "TITLE" : "ENQUIRY",
+        "SSCODE" : "17C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }]
+  }, {
+    "CONFIGID" : "221",
+    "TITLE" : "STATION FAULT/COMPLAINTS RECORD",
+    "SCHEDULE" : "18",
+    "FAILPOINT" : "L",
+    "FAILTYPE" : "S",
+    "GROUP" : [{
+      "CONFIGID" : "592",
+      "TITLE" : "Null Group Created for Schedule: 18",
+      "GROUPS" : "0",
+      "DETAIL" : [{
+        "CONFIGID" : 593,
+        "TITLE" : "NO LOG / OUT OF DATE",
+        "SSCODE" : "18A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 594,
+        "TITLE" : "NOT AVAILABLE FOR INSPECTION",
+        "SSCODE" : "18B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 595,
+        "TITLE" : "NO MEANS FOR PASSENGERS TO REPORT INCIDENTS",
+        "SSCODE" : "18C",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }]
+  }, {
+    "CONFIGID" : "242",
+    "TITLE" : "LOST LUGGAGE",
+    "SCHEDULE" : "39",
+    "FAILPOINT" : "L",
+    "FAILTYPE" : "S",
+    "GROUP" : [{
+      "CONFIGID" : "797",
+      "TITLE" : "Null Group Created for Schedule: 39",
+      "GROUPS" : "0",
+      "DETAIL" : [{
+        "CONFIGID" : 798,
+        "TITLE" : "NO INFORMATION",
+        "SSCODE" : "39A",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }, {
+        "CONFIGID" : 799,
+        "TITLE" : "ATOC CODE",
+        "SSCODE" : "39B",
+        "EXTRA" : "N",
+        "VALUE" : "N"
+      }]
+    }]
+  }]
+}

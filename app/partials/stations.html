@@ -1,0 +1,16 @@
+<p>stations</p>
+
+<div class="span12 centred pre-scrollable">
+<table class="table-striped table-bordered" ng-show="stations.data.length">
+<tr>
+<th>Stations</th><th>Type</th><th>Platform</th>
+</tr>
+<tr ng-repeat="stn in stations.data">
+
+<td><a ng-href={{getStationURL($index)}}>{{stn[station_name]}}</a></td>
+<td>{{stn[config_name]}}</td>
+<td>{{stn[platformid]}}</td>
+</tr>
+
+</table>
+</div>

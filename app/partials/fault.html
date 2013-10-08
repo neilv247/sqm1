@@ -1,6 +1,7 @@
 <p>{{inspection.INSPECTION}} Insp. for Station {{inspection.STATION}}, Platform {{inspection.PLATFORM}}, {{inspection.HEADER[groupix].GROUP[faultix].TITLE}}</p>
 <p>groupix {{groupix}}, faultix {{faultix}}</p>
-<div class ="span5 pagination-left">
+<div class ="span5 pagination-left row-fluid">
+<div class="pre-scrollable">
 <table class="table table-bordered table-condensed" ng-show="inspection.HEADER[groupix].GROUP[faultix].DETAIL.length">
 <thead>
 <tr>
@@ -19,7 +20,8 @@
 </tr>
 </tbody>
 </table>
-<div class="span5">
+</div>
+<div class="row-fluid span5 spacer" >
     <button type="button" class="btn" ng-click="doTheBack()">Exit</button>
 </div>
 </div>

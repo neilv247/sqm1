@@ -1,0 +1,274 @@
+{
+    "names":[
+        "STATIONID",
+        "NAME",
+        "PLATFORMID",
+        "CONFIG_NAME",
+        "AUTHORITY",
+        "STARTING_PFORM",
+        "COST_CENTRE"
+    ],
+    "data":[
+        [
+            258,
+            "NEILSTON",
+            "1",
+            "LIGHTS INSPECTION",
+            "SPT",
+            1,
+            "112670"
+        ],
+        [
+            258,
+            "NEILSTON",
+            "1",
+            "PRIMARY",
+            "SPT",
+            1,
+            "112670"
+        ],
+        [
+            258,
+            "NEILSTON",
+            "2",
+            "LIGHTS INSPECTION",
+            "SPT",
+            1,
+            "112670"
+        ],
+        [
+            258,
+            "NEILSTON",
+            "2",
+            "PRIMARY",
+            "SPT",
+            1,
+            "112670"
+        ],
+        [
+            258,
+            "NEILSTON",
+            "99",
+            "CCTV",
+            "SPT",
+            1,
+            "112670"
+        ],
+        [
+            259,
+            "NEW CUMNOCK",
+            "1",
+            "LIGHTS INSPECTION",
+            "SPT",
+            1,
+            "112540"
+        ],
+        [
+            259,
+            "NEW CUMNOCK",
+            "1",
+            "PRIMARY",
+            "SPT",
+            1,
+            "112540"
+        ],
+        [
+            259,
+            "NEW CUMNOCK",
+            "2",
+            "LIGHTS INSPECTION",
+            "SPT",
+            1,
+            "112540"
+        ],
+        [
+            259,
+            "NEW CUMNOCK",
+            "2",
+            "PRIMARY",
+            "SPT",
+            1,
+            "112540"
+        ],
+        [
+            259,
+            "NEW CUMNOCK",
+            "99",
+            "CCTV",
+            "SPT",
+            1,
+            "112540"
+        ],
+        [
+            259,
+            "NEW CUMNOCK",
+            "99",
+            "SS18",
+            "SPT",
+            1,
+            "112540"
+        ],
+        [
+            372,
+            "NEWCRAIGHALL",
+            "1",
+            "LIGHTS INSPECTION",
+            "AUTHORITY",
+            1,
+            "153400"
+        ],
+        [
+            372,
+            "NEWCRAIGHALL",
+            "1",
+            "PRIMARY",
+            "AUTHORITY",
+            1,
+            "153400"
+        ],
+        [
+            372,
+            "NEWCRAIGHALL",
+            "99",
+            "CCTV",
+            "AUTHORITY",
+            1,
+            "153400"
+        ],
+        [
+            372,
+            "NEWCRAIGHALL",
+            "99",
+            "SS18",
+            "AUTHORITY",
+            1,
+            "153400"
+        ],
+        [
+            260,
+            "NEWTON LANARK",
+            "1",
+            "LIGHTS INSPECTION",
+            "SPT",
+            1,
+            "134320"
+        ],
+        [
+            260,
+            "NEWTON LANARK",
+            "1",
+            "PRIMARY",
+            "SPT",
+            1,
+            "134320"
+        ],
+        [
+            260,
+            "NEWTON LANARK",
+            "2",
+            "LIGHTS INSPECTION",
+            "SPT",
+            1,
+            "134320"
+        ],
+        [
+            260,
+            "NEWTON LANARK",
+            "2",
+            "PRIMARY",
+            "SPT",
+            1,
+            "134320"
+        ],
+        [
+            260,
+            "NEWTON LANARK",
+            "99",
+            "CCTV",
+            "SPT",
+            1,
+            "134320"
+        ],
+        [
+            261,
+            "NEWTON ON AYR",
+            "1",
+            "LIGHTS INSPECTION",
+            "SPT",
+            1,
+            "122280"
+        ],
+        [
+            261,
+            "NEWTON ON AYR",
+            "1",
+            "PRIMARY",
+            "SPT",
+            1,
+            "122280"
+        ],
+        [
+            261,
+            "NEWTON ON AYR",
+            "2",
+            "LIGHTS INSPECTION",
+            "SPT",
+            1,
+            "122280"
+        ],
+        [
+            261,
+            "NEWTON ON AYR",
+            "2",
+            "PRIMARY",
+            "SPT",
+            1,
+            "122280"
+        ],
+        [
+            261,
+            "NEWTON ON AYR",
+            "99",
+            "CCTV",
+            "SPT",
+            1,
+            "122280"
+        ],
+        [
+            261,
+            "NEWTON ON AYR",
+            "99",
+            "SS18",
+            "SPT",
+            1,
+            "122280"
+        ],
+        [
+            567,
+            "NEWTONMORE",
+            "1",
+            "LIGHTS INSPECTION",
+            "AUTHORITY",
+            1,
+            "162740"
+        ],
+        [
+            567,
+            "NEWTONMORE",
+            "1",
+            "PRIMARY",
+            "AUTHORITY",
+            1,
+            "162740"
+        ],
+        [
+            567,
+            "NEWTONMORE",
+            "99",
+            "SS18",
+            "AUTHORITY",
+            1,
+            "162740"
+        ]
+    ]
+}
