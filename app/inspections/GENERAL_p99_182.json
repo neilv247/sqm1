@@ -1,0 +1,251 @@
+{
+   "STATION":"NEWBURY",
+   "STATIONID":182,
+   "PLATFORM":"99",
+   "INSPECTION":"GENERAL",
+   "REGIME":"FGW",
+   "FAULT_TYPE":"REACTIVE",
+   "FAULT_CATEGORY":"STATION",
+   "AUTHORITY":"HJ",
+   "USERID":"U140",
+   "INSPECTION_DATE":"",
+   "TS":"",
+   "WEATHER":"",
+   "HEADER":[
+      {
+         "CONFIGID":"6",
+         "TITLE":"SIGNAGE AND INFORMATION",
+         "SCHEDULE":"6",
+         "FAILPOINT":"L",
+         "FAILTYPE":"S",
+         "GROUP":[
+            {
+               "CONFIGID":"76",
+               "TITLE":"SIGNAGE AND WAYFARING INFORMATION",
+               "GROUPS":"2",
+               "DETAIL":[
+                  {
+                     "CONFIGID":261,
+                     "TITLE":"DOUBLE-ARROW SYMBOL DISPLAYED AT OR NEAR THE ENTRANCE  TO THE STATION IS MISSING OR ILLEGIBLE",
+                     "SSCODE":"6.2.3",
+                     "EXTRA":"Y",
+                     "VALUE":"N"
+                  }
+               ]
+            },
+            {
+               "CONFIGID":"75",
+               "TITLE":"POSTERS",
+               "GROUPS":"3",
+               "DETAIL":[
+                  {
+                     "CONFIGID":85,
+                     "TITLE":"DETAILS OF CHANGES TO THE PASSENGER TIMETABLE CAUSED BY ENGINEERING WORK ARE NOT DISPLAYED (5 DAYS)",
+                     "SSCODE":"6.3.3",
+                     "EXTRA":"Y",
+                     "VALUE":"N"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "CONFIGID":"7",
+         "TITLE":"STATION ACCESSIBILITY",
+         "SCHEDULE":"7",
+         "FAILPOINT":"L",
+         "FAILTYPE":"S",
+         "GROUP":[
+            {
+               "CONFIGID":"87",
+               "TITLE":"DPPP COMPLIANCE",
+               "GROUPS":"1",
+               "DETAIL":[
+                  {
+                     "CONFIGID":89,
+                     "TITLE":"ANY ADVERTISED ACCESSIBILITY FEATURE FOR THAT STATION IS NOT AVAILABLE AND FUNCTIONAL",
+                     "SSCODE":"7.1.1",
+                     "EXTRA":"Y",
+                     "VALUE":"N"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "CONFIGID":"9",
+         "TITLE":"BOOKING OFFICES",
+         "SCHEDULE":"9",
+         "FAILPOINT":"L",
+         "FAILTYPE":"S",
+         "GROUP":[
+            {
+               "CONFIGID":"107",
+               "TITLE":"BOOKING HALL - GENERAL",
+               "GROUPS":"1",
+               "DETAIL":[
+                  {
+                     "CONFIGID":262,
+                     "TITLE":"PLEASE CHECK AGAINST LIST OF ELEVEN",
+                     "SSCODE":"9.1.2",
+                     "EXTRA":"Y",
+                     "VALUE":"N"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "CONFIGID":"551",
+         "TITLE":"NON-DFT CLEANLINESS",
+         "SCHEDULE":"14",
+         "FAILPOINT":"L",
+         "FAILTYPE":"S",
+         "GROUP":[
+            {
+               "CONFIGID":"556",
+               "TITLE":"HAZARDOUS WASTE",
+               "GROUPS":"2",
+               "DETAIL":[
+                  {
+                     "CONFIGID":558,
+                     "TITLE":"THERE IS NO BIOLOGICAL CLEANING AND DISPOSABLE KIT WITH DISPOSAL BINS",
+                     "SSCODE":"14.2.2",
+                     "EXTRA":"Y",
+                     "VALUE":"N"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "CONFIGID":"595",
+         "TITLE":"SERVICE DISRUPTION",
+         "SCHEDULE":"18",
+         "FAILPOINT":"L",
+         "FAILTYPE":"S",
+         "GROUP":[
+            {
+               "CONFIGID":"596",
+               "TITLE":"SERVICE DISRUPTION",
+               "GROUPS":"1",
+               "DETAIL":[
+                  {
+                     "CONFIGID":599,
+                     "TITLE":"STAFF ARE NOT VISIBLE AND AVAILABLE",
+                     "SSCODE":"18.1.3",
+                     "EXTRA":"Y",
+                     "VALUE":"N"
+                  },
+                  {
+                     "CONFIGID":600,
+                     "TITLE":"A MANAGER IS NOT VISIBLE AND AVAILABLE",
+                     "SSCODE":"18.1.4",
+                     "EXTRA":"Y",
+                     "VALUE":"N"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "CONFIGID":"601",
+         "TITLE":"BEGGARS VAGRANTS AND BUSKERS",
+         "SCHEDULE":"19",
+         "FAILPOINT":"L",
+         "FAILTYPE":"S",
+         "GROUP":[
+            {
+               "CONFIGID":"602",
+               "TITLE":"BEGGARS VAGRANTS AND BUSKERS",
+               "GROUPS":"1",
+               "DETAIL":[
+                  {
+                     "CONFIGID":603,
+                     "TITLE":"THERE IS ANY EVIDENCE OF BEGGARS UNLICENSED BUSKERS OR VAGRANTS ON THE STATION PREMISES",
+                     "SSCODE":"19.1.1",
+                     "EXTRA":"Y",
+                     "VALUE":"N"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "CONFIGID":"604",
+         "TITLE":"NON-DFT STATION SIGNAGE AND INFORMATION",
+         "SCHEDULE":"20",
+         "FAILPOINT":"L",
+         "FAILTYPE":"S",
+         "GROUP":[
+            {
+               "CONFIGID":"618",
+               "TITLE":"LOST PROPERTY",
+               "GROUPS":"4",
+               "DETAIL":[
+                  {
+                     "CONFIGID":619,
+                     "TITLE":"THERE IS NO INFORMATION DISPLAYED ABOUT HOW LOST PROPERTY IS DEALT WITH",
+                     "SSCODE":"20.4.1",
+                     "EXTRA":"Y",
+                     "VALUE":"N"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "CONFIGID":"1241",
+         "TITLE":"ENVIRONMENTAL CARE",
+         "SCHEDULE":"30",
+         "FAILPOINT":"L",
+         "FAILTYPE":"S",
+         "GROUP":[
+            {
+               "CONFIGID":"1242",
+               "TITLE":"ENERGY WASTAGE",
+               "GROUPS":"1",
+               "DETAIL":[
+                  {
+                     "CONFIGID":1244,
+                     "TITLE":"ANY LIGHTS WERE FOUND TO BE ON WHEN NOT NEEDED",
+                     "SSCODE":"30.1.1",
+                     "EXTRA":"Y",
+                     "VALUE":"N"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "CONFIGID":"1521",
+         "TITLE":"ESCAPE MAGAZINE",
+         "SCHEDULE":"34",
+         "FAILPOINT":"L",
+         "FAILTYPE":"S",
+         "GROUP":[
+            {
+               "CONFIGID":"1522",
+               "TITLE":"ESCAPE MAGAZINE",
+               "GROUPS":"1",
+               "DETAIL":[
+                  {
+                     "CONFIGID":1531,
+                     "TITLE":"ESCAPE MAGAZINES ARE PRESENT IN SUPPLIED RACKS",
+                     "SSCODE":"34.1.1",
+                     "EXTRA":"Y",
+                     "VALUE":"N"
+                  },
+                  {
+                     "CONFIGID":1534,
+                     "TITLE":"THE RACK IS CLEAN WELL PRESENTED AND CORRECTLY BRANDED",
+                     "SSCODE":"34.1.2",
+                     "EXTRA":"Y",
+                     "VALUE":"N"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

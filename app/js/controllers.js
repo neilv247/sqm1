@@ -1,5 +1,23 @@
 'use strict';
 
+var stninspections, inspId = "ENT_+_CAR_PARK_BY_PLAT_1_p1_182.json";
+
+var getStnInspections = function($http, $q) {
+
+var deferred = $q.defer();
+
+  if (!stninspections) {
+    $http.get('inspections/stations.json').success(function(data) {
+      stninspections = data.items;
+      deferred.resolve(data.items);
+    });
+  } else {
+    deferred.resolve(stninspections);
+  }
+
+  return deferred.promise;
+};
+
 /* Controllers */
 
 function MyCtrl1() {}
@@ -12,6 +30,7 @@ MyCtrl2.$inject = [];
 function MyStations($scope, $http, partialResults) {
   $http.get('inspections/stations.json').success(function(data) {
     $scope.stations = data;
+    stninspections = data;
 //    alert( 'names: ' + $scope.stations.names[0]);
     partialResults.setObject(data);
     $scope.stationid = -1;
@@ -37,22 +56,26 @@ function MyStations($scope, $http, partialResults) {
  * also change to beuild inspection name properly - include id platform and type */
   $scope.getStationURL = function(ix){
     //alert( 'ix: ' + ix);
-    var f_url = "#/schedules";
+    var f_url = "#/schedules?inspid="+ix;
   //alert( 'f_url: ' + f_url);
   return f_url;
   };
 
 }
 
-function MySchedules($scope, $http, partialResults) {
-  $http.get('inspections/neilston_p1.json').success(function(data) {
+function MySchedules($scope, $http, $location, partialResults) {
+    var i_insp = $location.search()['inspid'];
+    var x_config_name = stninspections.data[i_insp][3];
+    var x_platform = stninspections.data[i_insp][2];
+    var i_inspid = stninspections.data[i_insp][0];
+    alert( 'INSP: ' + x_config_name + '_p' + x_platform + '_' + i_inspid + '.json');
+    inspId = x_config_name + '_p' + x_platform + '_' + i_inspid + '.json';
+    $http.get('inspections/'+inspId).success(function(data) {
     $scope.inspection = data;
-//    alert( 'INSP: ' + $scope.inspection.INSPECTION);
     partialResults.setObject(data);
   });
 
   $scope.getSchedURL = function(ix){
-    //alert( 'ix: ' + ix);
     var f_url = "#/groups?groupix="+ix;
     if ($scope.inspection.HEADER[ix].GROUP.length == "1") 
     { f_url = "#/faults?groupix="+ix+"&faultix=0"; }

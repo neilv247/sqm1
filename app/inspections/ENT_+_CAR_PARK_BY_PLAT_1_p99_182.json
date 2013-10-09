@@ -1,0 +1,882 @@
+{
+  "STATION":"NEWBURY",
+  "STATIONID":182,
+  "PLATFORM":"99",
+  "INSPECTION":"ENT + CAR PARK BY PLAT 1",
+  "REGIME":"FGW",
+  "FAULT_TYPE":"HJ",
+  "FAULT_CATEGORY":"STATION",
+  "AUTHORITY":"SPT",
+  "USERID":"U140",
+  "INSPECTION_DATE":"",
+  "TS":"",
+  "WEATHER":"",
+  "HEADER":[
+    {
+      "CONFIGID":"1",
+      "TITLE":"STATION CLEANLINESS",
+      "SCHEDULE":"1",
+      "FAILPOINT":"L",
+      "FAILTYPE":"S",
+      "GROUP":[
+        {
+          "CONFIGID":"10",
+          "TITLE":"LITTER",
+          "GROUPS":"1",
+          "DETAIL":[
+            {
+              "CONFIGID":13,
+              "TITLE":"THERE ARE MORE THAN 10 ITEMS OF LITTER EACH LARGER THAN THE SIZE OF A CREDIT CARD IN ANY AREA",
+              "SSCODE":"1.1.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"12",
+          "TITLE":"GRAFFITI",
+          "GROUPS":"2",
+          "DETAIL":[
+            {
+              "CONFIGID":16,
+              "TITLE":"ANY GRAFFITI OF A RACIAL RELIGIOUS SEXUAL OR OTHER POTENTIALLY OFFENSIVE NATURE IS VISIBLE",
+              "SSCODE":"1.2.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":17,
+              "TITLE":"ANY OTHER NON OFFENSIVE GRAFFITI IS OF GREATER AREA THAN CAN BE COVERED WITH AN A4 SHEET OF PAPER",
+              "SSCODE":"1.2.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":18,
+              "TITLE":"THERE ARE MORE THAN 10 INDIVIDUAL PIECES OF GRAFFITI IN AREA",
+              "SSCODE":"1.2.3",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"11",
+          "TITLE":"FLOORS",
+          "GROUPS":"3",
+          "DETAIL":[
+            {
+              "CONFIGID":19,
+              "TITLE":"ALL STATION FLOORS HARD OR CARPETED DO NOT SHOW EVIDENCE OF DEFINED DEEP OR GENERAL CLEANING",
+              "SSCODE":"1.3.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CONFIGID":"3",
+      "TITLE":"STATION MAINTENANCE",
+      "SCHEDULE":"3",
+      "FAILPOINT":"L",
+      "FAILTYPE":"S",
+      "GROUP":[
+        {
+          "CONFIGID":"31",
+          "TITLE":"GLASS MIRRORS AND WINDOWS",
+          "GROUPS":"1",
+          "DETAIL":[
+            {
+              "CONFIGID":35,
+              "TITLE":"ANY WINDOW OR MIRROR VISIBLE TO THE PUBLIC IS CRACKEDBROKEN OR SMASHED",
+              "SSCODE":"3.1.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"34",
+          "TITLE":"LIGHTING",
+          "GROUPS":"2",
+          "DETAIL":[
+            {
+              "CONFIGID":36,
+              "TITLE":"IF MORE THAN 5% OF LIGHTS ARE DEFECTIVE",
+              "SSCODE":"3.2.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":37,
+              "TITLE":"BLANK",
+              "SSCODE":"3.2.2",
+              "EXTRA":"N",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":38,
+              "TITLE":"ANY LIGHT COVER IS UNFIT FOR PURPOSE OR MISSING",
+              "SSCODE":"3.2.3",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":39,
+              "TITLE":"ANY LIGHT IS NOT PROPERLY ALIGNED OR DIRECTED TOWARDS THE AREA TO BE ILLUMINATED",
+              "SSCODE":"3.2.4",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":40,
+              "TITLE":"ANY AREA THAT REQUIRES LIGHTING IS UNLIT",
+              "SSCODE":"3.2.5",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CONFIGID":"5",
+      "TITLE":"SECURITY AND SAFETY",
+      "SCHEDULE":"5",
+      "FAILPOINT":"L",
+      "FAILTYPE":"S",
+      "GROUP":[
+        {
+          "CONFIGID":"70",
+          "TITLE":"CCTV",
+          "GROUPS":"1",
+          "DETAIL":[
+            {
+              "CONFIGID":71,
+              "TITLE":"A CCTV CAMERA IN A STATION FACILITY IS NOT FULLY FUNCTIONAL OR OPERATIONAL",
+              "SSCODE":"5.1.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":72,
+              "TITLE":" CCTV CAMERA IN THE STATION IS POINTING SKYWARD DIRECTLY AT THE GROUND OR IS NOT ADDING TO SECURITY",
+              "SSCODE":"5.1.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":73,
+              "TITLE":"THERE IS NO SIGNAGE OR SIGNAGE IS INADEQUATE",
+              "SSCODE":"5.1.3",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CONFIGID":"6",
+      "TITLE":"SIGNAGE AND INFORMATION",
+      "SCHEDULE":"6",
+      "FAILPOINT":"L",
+      "FAILTYPE":"S",
+      "GROUP":[
+        {
+          "CONFIGID":"76",
+          "TITLE":"SIGNAGE AND WAYFARING INFORMATION",
+          "GROUPS":"2",
+          "DETAIL":[
+            {
+              "CONFIGID":81,
+              "TITLE":"ANY SIGNAGE OR WAYFINDING INFORMATION IS NOT CLEAR LEGIBLE CONSISTENT AND EASY TO UNDERSTAND",
+              "SSCODE":"6.2.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":82,
+              "TITLE":"ALL CORRECT INFORMATION REGARDING TO GUIDE CUSTOMERS IS AVAILABLE",
+              "SSCODE":"6.2.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"75",
+          "TITLE":"POSTERS",
+          "GROUPS":"3",
+          "DETAIL":[
+            {
+              "CONFIGID":83,
+              "TITLE":"ANY POSTER INFORMATION IS NOT LEGIBLE (E.G. DUE TO DIRT MOISTURE ETC)",
+              "SSCODE":"6.3.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":84,
+              "TITLE":"THE INFORMATION ON ANY POSTER IS OUT OF DATE",
+              "SSCODE":"6.3.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":86,
+              "TITLE":"THERE ARE UNAUTHORISED POSTERS OR STICKERS ON DISPLAY ANYWHERE AT THE STATION",
+              "SSCODE":"6.3.4",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CONFIGID":"8",
+      "TITLE":"CAR PARKS",
+      "SCHEDULE":"8",
+      "FAILPOINT":"L",
+      "FAILTYPE":"S",
+      "GROUP":[
+        {
+          "CONFIGID":"97",
+          "TITLE":"BOUNDARY SECURITY",
+          "GROUPS":"1",
+          "DETAIL":[
+            {
+              "CONFIGID":100,
+              "TITLE":"IDENTIFICATION OF ENTRY TO AN FGW CAR PARK IS NOT CLEAR",
+              "SSCODE":"8.1.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":101,
+              "TITLE":"CAR PARKING SPACES ARE NOT CLEARLY MARKED",
+              "SSCODE":"8.1.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"99",
+          "TITLE":"SIGNAGE",
+          "GROUPS":"2",
+          "DETAIL":[
+            {
+              "CONFIGID":102,
+              "TITLE":"INFORMATION OR SIGNAGE IS NOT LEGIBLE REGULARLY MAINTAINED AND UP TO DATE",
+              "SSCODE":"8.2.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"98",
+          "TITLE":"DISABLED BAYS",
+          "GROUPS":"3",
+          "DETAIL":[
+            {
+              "CONFIGID":103,
+              "TITLE":"ALL DISABLED BAYS ARE NOT SUITABLY LOCATED AS CLOSE TO THE STATION ENTRANCE AND CLEARLY SIGNED",
+              "SSCODE":"8.3.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":104,
+              "TITLE":"A VEHICLE PARKED IN DESIGNATED DISABLED AREA IS NOT SHOWING AN APPROPRIATE BADGE (PASS IF TICKETED)",
+              "SSCODE":"8.3.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CONFIGID":"385",
+      "TITLE":"RETAIL OUTLETS",
+      "SCHEDULE":"10",
+      "FAILPOINT":"L",
+      "FAILTYPE":"S",
+      "GROUP":[
+        {
+          "CONFIGID":"303",
+          "TITLE":"PUBLIC TELEPHONES",
+          "GROUPS":"2",
+          "DETAIL":[
+            {
+              "CONFIGID":530,
+              "TITLE":"PUBLIC TELEPHONE IS MISSING OR NOT OPERATIONAL",
+              "SSCODE":"10.2.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":531,
+              "TITLE":"WHEREABOUTS OF PUBLIC TELEPHONE IS NOT CLEARLY SIGNED",
+              "SSCODE":"10.2.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CONFIGID":"536",
+      "TITLE":"STATION STAFF APPEARANCE AVAILABILITY AND BEHAVIOUR",
+      "SCHEDULE":"13",
+      "FAILPOINT":"L",
+      "FAILTYPE":"S",
+      "GROUP":[
+        {
+          "CONFIGID":"537",
+          "TITLE":"BEHAVIOURS/VISIBILITY/MANNER",
+          "GROUPS":"1",
+          "DETAIL":[
+            {
+              "CONFIGID":538,
+              "TITLE":"STAFF ARE NOT AVAILABLE AND NOT VISIBLE DURING SPECIFIED TIMES",
+              "SSCODE":"13.1.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":539,
+              "TITLE":"WHEN APPROACHED THERE IS NO GREETING OR EYE CONTACT OR CUSTOMER IS IGNORED",
+              "SSCODE":"13.1.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":540,
+              "TITLE":"INFORMATION PROVIDED IS INCORRECT",
+              "SSCODE":"13.1.3",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":541,
+              "TITLE":"NO POSITIVE CLOSURE BY MEMBER OF STAFF",
+              "SSCODE":"13.1.4",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"542",
+          "TITLE":"APPEARANCE",
+          "GROUPS":"2",
+          "DETAIL":[
+            {
+              "CONFIGID":543,
+              "TITLE":"ANY STAFF MEMBER WHO SHOULD BE WEARING UNIFORM IS NOT",
+              "SSCODE":"13.2.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":544,
+              "TITLE":"NAME BADGE IS NOT BEING WORN IN CORRECT POSITION SHOWING NAME AND ROLE",
+              "SSCODE":"13.2.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":545,
+              "TITLE":"ANY STAFF MEMBER HAS EVIDENCE OF POOR PERSONAL HYGIENE",
+              "SSCODE":"13.2.3",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":546,
+              "TITLE":"ANY MEMBER OF STAFF IS SEEN SMOKING IN A DEFINED AREA OF THE STATION",
+              "SSCODE":"13.2.4",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":547,
+              "TITLE":"ANY MEMBER OF STAFF IS SEEN EATING CHEWING GUM OR DRINKING",
+              "SSCODE":"13.2.5",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":1341,
+              "TITLE":"STAFF MEMBER IS WELL PRESENTED - UNIFORM PROPERLY FITTING CLEAN AND PRESSED",
+              "SSCODE":"13.2.6",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"548",
+          "TITLE":"KNOWLEDGE",
+          "GROUPS":"3",
+          "DETAIL":[
+            {
+              "CONFIGID":549,
+              "TITLE":"STAFF PROVIDE INCORRECT INFORMATION ABOUT SERVICES/FACILITIES/AMENITIES OR TRANSPORT LINKS",
+              "SSCODE":"13.3.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":550,
+              "TITLE":"STAFF WHO DO NOT KNOW ANSWERS DO NOT TRY TO FIND A SOLUTION",
+              "SSCODE":"13.3.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CONFIGID":"551",
+      "TITLE":"NON-DFT CLEANLINESS",
+      "SCHEDULE":"14",
+      "FAILPOINT":"L",
+      "FAILTYPE":"S",
+      "GROUP":[
+        {
+          "CONFIGID":"552",
+          "TITLE":"HAZARDS",
+          "GROUPS":"1",
+          "DETAIL":[
+            {
+              "CONFIGID":553,
+              "TITLE":"THERE ARE ANY SLIPPERY AREAS (PASS IF ATTENDED TO AND SIGNED)",
+              "SSCODE":"14.1.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":554,
+              "TITLE":"ANY AREA HAS STANDING WATER LOOSE SURFACES WEEDS OR OTHER MATERIALS THAT ARE HAZARDOUS",
+              "SSCODE":"14.1.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"556",
+          "TITLE":"HAZARDOUS WASTE",
+          "GROUPS":"2",
+          "DETAIL":[
+            {
+              "CONFIGID":557,
+              "TITLE":"THERE IS ANY CONTAMINATION WHICH MAKES ANY PART OF THE STATION UNUSABLE OR INSANITARY",
+              "SSCODE":"14.2.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"563",
+          "TITLE":"GLASS MIRRORS AND WINDOWS",
+          "GROUPS":"4",
+          "DETAIL":[
+            {
+              "CONFIGID":564,
+              "TITLE":"ANY WINDOW OR MIRROR IS SO DIRTY OR DUSTY THAT A LETTER WRITTEN IN THE DUST IS CLEARLY LEGIBLE",
+              "SSCODE":"14.4.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":565,
+              "TITLE":"ANY GLASS SURFACE IS SMEARED",
+              "SSCODE":"14.4.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"566",
+          "TITLE":"FLOORS",
+          "GROUPS":"5",
+          "DETAIL":[
+            {
+              "CONFIGID":567,
+              "TITLE":"FLOORS ARE IN A POOR CONDITION OF REPAIR",
+              "SSCODE":"14.5.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"568",
+          "TITLE":"WALLS DOORS CEILINGS",
+          "GROUPS":"6",
+          "DETAIL":[
+            {
+              "CONFIGID":569,
+              "TITLE":"ANY WINDOWSSILLSHANDRAILSWALLSSURFACES OR DOORS ARE DIRTY ENOUGH TO SOIL CLOTHING",
+              "SSCODE":"14.6.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CONFIGID":"575",
+      "TITLE":"NON-DFT MAINTENANCE",
+      "SCHEDULE":"16",
+      "FAILPOINT":"L",
+      "FAILTYPE":"S",
+      "GROUP":[
+        {
+          "CONFIGID":"576",
+          "TITLE":"DECORATIVE CONDITION",
+          "GROUPS":"1",
+          "DETAIL":[
+            {
+              "CONFIGID":577,
+              "TITLE":"AREA SHOWS SIGNS OF DISREPAIR",
+              "SSCODE":"16.1.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":578,
+              "TITLE":"MORE THAN ONE A3 AREA OF DISCOLOURED FLAKED OR MISSING PAINTWORK",
+              "SSCODE":"16.1.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"586",
+          "TITLE":"LANDSCAPING OR VEGETATION",
+          "GROUPS":"2",
+          "DETAIL":[
+            {
+              "CONFIGID":587,
+              "TITLE":"ANY INFORMATION IS OBSCURED BY VEGETATION",
+              "SSCODE":"16.2.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":588,
+              "TITLE":"ANY AREA OF THE STATION SUFFERS ENCROACHMENT BY VEGETATION",
+              "SSCODE":"16.2.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":589,
+              "TITLE":"ANY VEGETATION POSES A RISK OF INJURY OR DAMAGE TO PEOPLE CLOTHING OR ARTICLES",
+              "SSCODE":"16.2.3",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"591",
+          "TITLE":"GLASS MIRRORS AND WINDOWS",
+          "GROUPS":"3",
+          "DETAIL":[
+            {
+              "CONFIGID":592,
+              "TITLE":"ANY GLAZING HAS BECOME NON-TRANSPARENT OR HAS BEEN BURNT",
+              "SSCODE":"16.3.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"593",
+          "TITLE":"LIGHTING",
+          "GROUPS":"4",
+          "DETAIL":[
+            {
+              "CONFIGID":594,
+              "TITLE":"ANY LIGHT SOURCE IS OBSCURED BY FOLIAGE",
+              "SSCODE":"16.4.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CONFIGID":"581",
+      "TITLE":"TICKET MACHINES",
+      "SCHEDULE":"17",
+      "FAILPOINT":"L",
+      "FAILTYPE":"S",
+      "GROUP":[
+        {
+          "CONFIGID":"582",
+          "TITLE":"TICKET MACHINES",
+          "GROUPS":"1",
+          "DETAIL":[
+            {
+              "CONFIGID":583,
+              "TITLE":"SSTM ARE NOT ALL FULLY OPERATIONAL",
+              "SSCODE":"17.1.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":584,
+              "TITLE":"WHEREABOUTS OF SSTM ARE NOT CLEARLY SIGNED",
+              "SSCODE":"17.1.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":585,
+              "TITLE":"TICKET MACHINES ARE DAMAGED OR DIRTY",
+              "SSCODE":"17.1.3",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":620,
+              "TITLE":"THERE ARE NO CLEAR INSTRUCTIONS FOR USE WITH CONTACT DETAILS IF DIFFICULTIES",
+              "SSCODE":"17.1.4",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CONFIGID":"604",
+      "TITLE":"NON-DFT STATION SIGNAGE AND INFORMATION",
+      "SCHEDULE":"20",
+      "FAILPOINT":"L",
+      "FAILTYPE":"S",
+      "GROUP":[
+        {
+          "CONFIGID":"607",
+          "TITLE":"POSTERS",
+          "GROUPS":"2",
+          "DETAIL":[
+            {
+              "CONFIGID":608,
+              "TITLE":"ANY POSTER CASE IS EMPTY OR DISPLAYED IN AN INAPPROPRIATE PLACE",
+              "SSCODE":"20.2.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":609,
+              "TITLE":"ANY POSTER IS NOT DISPLAYED STRAIGHT COVERING BACKING PLATE RIGHT WAY UP AND ROUND",
+              "SSCODE":"20.2.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":610,
+              "TITLE":"ANY POSTER HAS BECOME NOTICEABLY DAMAGED OR FADED",
+              "SSCODE":"20.2.3",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":611,
+              "TITLE":"ANY POSTER FRAME IS DIRTY OR DEFACED BY GRAFFITI",
+              "SSCODE":"20.2.4",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":612,
+              "TITLE":"ANY POSTER FRAME IS MISSING OR DAMAGED IN ANY WAY WHICH PREVENTS THE PROPER DISPLAY OF A POSTER",
+              "SSCODE":"20.2.5",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CONFIGID":"652",
+      "TITLE":"BICYCLES",
+      "SCHEDULE":"24",
+      "FAILPOINT":"L",
+      "FAILTYPE":"S",
+      "GROUP":[
+        {
+          "CONFIGID":"653",
+          "TITLE":"RACKS",
+          "GROUPS":"1",
+          "DETAIL":[
+            {
+              "CONFIGID":654,
+              "TITLE":"ALL BICYCLE RACKS ARE NOT CLEARLY MARKED AS SUCH",
+              "SSCODE":"24.1.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":655,
+              "TITLE":"ALL BICYCLE RACKS ARE NOT FULLY FUNCTIONAL",
+              "SSCODE":"24.1.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"656",
+          "TITLE":"DESERTED BIKES",
+          "GROUPS":"2",
+          "DETAIL":[
+            {
+              "CONFIGID":657,
+              "TITLE":"THERE IS AN OBVIOUSLY ABANDONED BIKE IN A RACK WITHOUT IT HAVING NOTIFICATION OF INTENT TO MOVE",
+              "SSCODE":"24.2.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":658,
+              "TITLE":"THE NUMBER OF ABANDONED BICYCLE PARTS NUMBERS MORE THAN FIVE",
+              "SSCODE":"24.2.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CONFIGID":"1261",
+      "TITLE":"2011 CAR PARKS",
+      "SCHEDULE":"31",
+      "FAILPOINT":"L",
+      "FAILTYPE":"S",
+      "GROUP":[
+        {
+          "CONFIGID":"1262",
+          "TITLE":"CAR PARK SIGNAGE",
+          "GROUPS":"1",
+          "DETAIL":[
+            {
+              "CONFIGID":1266,
+              "TITLE":"NO SIGNAGE AS TO THE CONDITIONS OF USE OF THE FACILITY INDICATING DETAILS OF THE FACILITY OPERATOR",
+              "SSCODE":"31.1.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":1267,
+              "TITLE":"CONSEQUENCES OF NON-PAYMENT ARE NOT DISPLAYED",
+              "SSCODE":"31.1.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":1268,
+              "TITLE":"NO INFORMATION ABOUT THE REMOVAL OF ABANDONED VEHICLES IS DISPLAYED",
+              "SSCODE":"31.1.3",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"1263",
+          "TITLE":"CAR PARK TICKET MACHINES",
+          "GROUPS":"2",
+          "DETAIL":[
+            {
+              "CONFIGID":1269,
+              "TITLE":"THE CAR PARK PAYMENT MACHINE LOCATIONS ARE NOT CLEARLY SIGNED",
+              "SSCODE":"31.2.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":1270,
+              "TITLE":"IF NOT OPERATIONAL PAYMENT MACHINES ARE NOT SIGNED AS BEING OUT OF USE",
+              "SSCODE":"31.2.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":1271,
+              "TITLE":"ALL PAYMENT MACHINES ARE NOT FULLY OPERATIONAL",
+              "SSCODE":"31.2.3",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":1272,
+              "TITLE":"ALL PAYMENT MACHINES ARE DISPLAYING THE CORRECT TIME",
+              "SSCODE":"31.2.4",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"1264",
+          "TITLE":"CAR PARK CONDITION",
+          "GROUPS":"3",
+          "DETAIL":[
+            {
+              "CONFIGID":1273,
+              "TITLE":"THERE IS EVIDENCE OF REGULAR LITTER PICKING",
+              "SSCODE":"31.3.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            },
+            {
+              "CONFIGID":1274,
+              "TITLE":"THE CAR PARK IN GENERALLY TIDY AND IN AN ACCEPTABLE CONDITION",
+              "SSCODE":"31.3.2",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        },
+        {
+          "CONFIGID":"1265",
+          "TITLE":"ABANDONED VEHICLES",
+          "GROUPS":"4",
+          "DETAIL":[
+            {
+              "CONFIGID":1275,
+              "TITLE":"THERE IS AN OBVIOUSLY ABANDONED VEHICLE WITHOUT A NOTIFICATION OF INTENT TO MOVE",
+              "SSCODE":"31.4.1",
+              "EXTRA":"Y",
+              "VALUE":"N"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+09OCT13
+=======
+
+Started adding code for using $q but not used yet.
+Added some test json files from FGW_SQM database - list of stations and 2 station inspections. 
+Changed MySchedules function to get schedule from url from stations list. 
+
+To Do
+=====
+Use $q to get resources.
+
+Sort out scope in controllers.
+
+Get data from web server.
+
